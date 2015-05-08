@@ -7,3 +7,7 @@
 //
 
 #include "Polynomial.h"
+RationalNumber Polynomial::LED_P_Z()
+{
+		return coefficients.back();
+}
