@@ -17,5 +17,5 @@ class Polynomial {
 private:
     std::vector<RationalNumber> coefficients;
 public:
-    
+    RationalNumber LED_P_Z(std::vector<RationalNumber>, int);
 };
